@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="523.0" prefWidth="740.0" style="-fx-background-color: #ddedf5;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java.lang.ModuleLayer.Controller">
+   <children>
+      <AnchorPane prefHeight="117.0" prefWidth="740.0" style="-fx-background-color: #173451;">
+         <children>
+            <Label layoutX="77.0" layoutY="23.0" prefHeight="76.0" prefWidth="640.0" text="school management system" textFill="#9fc4e9">
+               <font>
+                  <Font name="Sylfaen" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnDashboard" layoutX="84.0" layoutY="172.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="148.0" style="-fx-background-color: #173451;" text="dashboard" textFill="#b9b9b9">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnStudents" layoutX="296.0" layoutY="172.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="148.0" style="-fx-background-color: #173451;" text="students" textFill="#b9b9b9">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnTeachers" layoutX="497.0" layoutY="172.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="148.0" style="-fx-background-color: #173451;" text="teachers" textFill="#b9b9b9">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnClasses" layoutX="84.0" layoutY="330.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="148.0" style="-fx-background-color: #173451;" text="classes" textFill="#b9b9b9">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate" layoutX="296.0" layoutY="330.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="148.0" style="-fx-background-color: #173451;" text="update" textFill="#b9b9b9">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSettings" layoutX="497.0" layoutY="330.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="148.0" style="-fx-background-color: #173451;" text="settings" textFill="#b9b9b9">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

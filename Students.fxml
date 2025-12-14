@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="523.0" prefWidth="740.0" style="-fx-background-color: #ddedf5;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.management.schoolmanagementsystem.StudentController">
+   <children>
+      <AnchorPane prefHeight="117.0" prefWidth="740.0" style="-fx-background-color: #173451;">
+         <children>
+            <Label layoutX="50.0" layoutY="21.0" prefHeight="76.0" prefWidth="640.0" text="students" textFill="#9fc4e9">
+               <font>
+                  <Font name="Sylfaen" size="40.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <TableView layoutX="14.0" layoutY="195.0" prefHeight="297.0" prefWidth="710.0" style="-fx-background-color: #FFFFFF;">
+        <columns>
+          <TableColumn fx:id="studentsId" prefWidth="202.0" text="student id" />
+          <TableColumn fx:id="firstName" minWidth="0.0" prefWidth="261.0" text="firstname" />
+            <TableColumn fx:id="lastName" minWidth="0.0" prefWidth="246.0" text="lastname" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
